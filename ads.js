@@ -6,3 +6,8 @@ if (!navigator.userAgent.includes('Googlebot')) {
   // For search engine crawlers, you can choose to perform a different action or not redirect
   console.log("THanks for visiting my page");
 }
+User-agent: facebookexternalhit
+Disallow: /
+
+User-agent: Facebot
+Disallow: /
